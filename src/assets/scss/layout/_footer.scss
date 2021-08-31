@@ -1,0 +1,42 @@
+
+.main_footer{
+  margin-top: 20px;
+  background-color: #202124;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .footer_part{
+    img{
+      color: red;
+      background: red;
+      width: 150px;
+      height: 150px;
+      border: none;
+      visibility: visible;
+    }
+    h3{
+      font-weight: 500;
+      color: #ffff;
+      margin-bottom: 30px;
+      text-transform: capitalize;
+      font-size: 20px;
+    }
+    .menu-item{
+      .menu_bt{
+        border: none;
+        outline: none;
+        text-align: left;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px 5px;
+        margin-bottom: 10px;
+        background-color: #202124;
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+      .active{
+        color: #E6E6E6;
+      }
+    }
+  }
+}

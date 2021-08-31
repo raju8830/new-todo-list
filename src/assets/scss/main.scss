@@ -1,0 +1,54 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../app/src/assets/scss/pages/home";
+@import "../app/src/assets/scss/pages/about";
+@import "../app/src/assets/scss/layout/body";
+@import "../app/src/assets/scss/layout/side_bar";
+@import "../app/src/assets/scss/layout/footer";
+
+/*
+  .sidebar{
+  width: 400px;
+  background: #dddddd;
+  text-align: left;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  h2{
+    margin-top: 30px;
+  }
+  .list{
+
+    h3{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+    ul{
+      margin: 0px;
+      padding: 0px;
+      li{
+        list-style: none;
+        margin-bottom: 5px;
+        background: #F8F9FA;
+        color:#198754;
+        border-radius:3px;
+        :hover{
+          background: #198754;
+          display: block;
+          color: #fff;
+          transition: all .3s;
+        }
+        a{
+          text-decoration: none;
+          color:#198754;
+          display: block;
+          padding: 5px 10px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+}
+*/
+
+
+

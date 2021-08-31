@@ -1,0 +1,130 @@
+/* Home Part*/
+.home{
+  width: 100%;
+  margin-top: 30px;
+  .input_item{
+    h1{
+      text-transform: capitalize;
+    }
+    input{
+      width: 300px;
+      border: none;
+      outline: none;
+      background: #E6E6E6;
+      padding: 5px 10px;
+      text-transform: capitalize;
+    }
+  }
+  // Order List Part
+  .order_list_part{
+    list-style: none;
+    li{
+      span{
+        margin-left: 10px;
+        margin-right: 10px;
+        text-transform: capitalize;
+        color: #202124;
+      }
+      .first_child{
+        font-weight: bold;
+        color: #6E6E6E;
+        &:hover{
+          color: #202124;
+        }
+      }
+      .last_child{
+        font-weight: bold;
+        color: #6E6E6E;
+        &:hover{
+          color: #202124;
+        }
+      }
+    }
+    .active{
+      text-decoration: line-through;
+      font-weight: bold;
+      margin-left: 10px;
+      color: red;
+      text-transform: capitalize;
+    }
+  }
+  .todoListContainer{
+    background: #e6e6e6;
+    padding: 20px 10px;
+    width: 100%;
+    //Start Binding part section
+    .binding_chack{
+      .input_binding{
+        display: inline-block;
+      }
+    }
+    // End Binding Section
+
+    #title{
+      background: #e6e6e6;
+      margin-bottom: 30px;
+    }
+    .input_part{
+
+      input{
+        text-transform: capitalize;
+        display: flex;
+        &:nth-child(1){
+          border: 1px solid #ddd;
+          padding: 10px 15px;
+          box-sizing: border-box;
+          outline: none;
+          font-size: 14px;
+          border-radius: 5px;
+        }
+        &:nth-child(2){
+          padding: 5px 25px;
+          cursor: pointer;
+          font-size: 16px;
+          color: #fff;
+          background: #994EC5;
+          border-radius: 5px;
+          border: none;
+          margin-top: 10px;
+          text-transform: capitalize;
+        }
+      }
+    }
+    ul{
+      text-align: left;
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      li{
+        margin-top: 10px;
+        button{
+          padding: 5px 12px;
+          font-size: 14px;
+          color: #fff;
+          background: #994EC5;
+          border-radius: 5px;
+          margin-left: 10px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+.hide_show{
+  button{
+    outline: none;
+    border: none;
+    float: right;
+    color: #fff;
+    background: #6E6E6E;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    &:hover{
+      background: #202124;
+      transition: all .3s;
+    }
+  }
+  overflow: hidden;
+}
+

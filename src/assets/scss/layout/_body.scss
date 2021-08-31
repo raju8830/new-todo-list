@@ -1,0 +1,26 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#app{
+  font-family: 'Roboto', sans-serif;
+  /* Navigation Part*/
+  .nav{
+    display: block;
+    .navbar-brand{
+      color: #202124;
+      font-weight: bold;
+    }
+    .nav-link{
+      text-transform: capitalize;
+      margin-left: 10px;
+      &:hover{
+        color: #202124;
+      }
+    }
+  }
+  .body_part{
+    display: flex;
+  }
+}
